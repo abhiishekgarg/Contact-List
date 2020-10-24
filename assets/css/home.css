@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading
+{
+    text-align: center;
+    margin-top: 5vh;
+    color: grey;
+}
+
+#contact-list-container
+{
+    list-style-type: none;
+    padding: 0 40vw 0 40vw;
+}
+
+form
+{
+    text-align: center;
+}
+
+form input
+{
+    border: 0;
+    width: 8.2vw;
+    padding: 0.1vw;
+    border-bottom: 0.1vw solid black;
+}
+
+form button
+{
+    border: 0;
+}
+
+.details
+{
+    background-color: #648fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.2rem;
+    margin-bottom: 0.2vw;
+    color: white;
+    font-weight: bold;
+    padding: 0vw 0.4vw 0vw 0.4vw;
+}
+
+.details:hover
+{
+    background-color: grey;
+}
+
+.contact .details .delete-button a
+{
+    color: red;
+    background-color: white;
+}
